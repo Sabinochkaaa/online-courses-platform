@@ -1,0 +1,4 @@
+com\eduplatform\backend\Course.class
+com\eduplatform\backend\CourseController.class
+com\eduplatform\backend\CourseFacade.class
+com\eduplatform\backend\BackendApplication.class

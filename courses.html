@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduPlatform - Курсы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">🎓 EduPlatform</div>
+        <div class="nav-links">
+            <a href="index.html">Главная</a>
+            <a href="index.html#about">О нас</a>
+            <a href="courses.html">Курсы</a>
+            <a href="index.html#contact">Контакты</a>
+        </div>
+    </div>
+</header>
+
+<main>
+<section class="page-title">
+    <div class="container">
+        <h1>Наши курсы программирования</h1>
+        <p>Выберите курс и начните учиться уже сегодня</p>
+    </div>
+</section>
+
+    <section class="courses-section">
+        <div class="container">
+            <div id="coursesContainer" class="courses-grid">
+                <!-- СЮДА JS ЗАГРУЗИТ КУРСЫ -->
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <p>© 2026 EduPlatform. Все права защищены</p>
+    </div>
+</footer>
+
+<!-- Модальное окно -->
+<div id="courseModal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div id="modalBody"></div>
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
